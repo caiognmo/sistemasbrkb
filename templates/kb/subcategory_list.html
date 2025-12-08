@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load kb_custom_filters %}
+
+{% block title %}
+{{ categoria.nome }} - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <h2>{{ categoria.nome }}</h2>
+    <hr>
+    {% if subcategorias %}
+        <div class="card-grid">
+            {% for item in subcategorias %}
+                {% if item.type == 'category' %}
+                    <div class="card">
+                        <div class="card-icon-area">
+                            {% with icon_class=item.icon|default:'fa-solid fa-folder' %}
+                                <i class="{{ icon_class }} fa-3x"></i>
+                            {% endwith %}
+                        </div>
+                        <div class="card-content-area">
+                            <h3 class="card-title">
+                                <a href="{% url 'kb:artigo-list' item.id %}">{{ forloop.counter }}. {{ item.nome|strip_prefix }}
+                                {% if item|has_new_articles_in_category %}
+                                    <span class="new-tag">NOVO</span>
+                                {% endif %}
+                                </a>
+                            </h3>
+                            <p class="card-description">{{ item.descricao|truncatewords:15 }}</p>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        {% if has_articles %}
+        <h3>Artigos</h3>
+        <ul class="article-list">
+            {% for item in subcategorias %}
+                {% if item.type == 'artigo' %}
+                    <li>
+                        <a href="{{ item.get_absolute_url }}">{{ forloop.counter }}. {{ item.titulo|strip_prefix }}
+                        {% if item.show_new_in_title %}
+                            <span class="new-tag">NOVO</span>
+                        {% endif %}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        {% endif %}
+    {% else %}
+        <p>Nenhum item encontrado.</p>
+    {% endif %}
+{% endblock %}

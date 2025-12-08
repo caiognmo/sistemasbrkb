@@ -1,0 +1,28 @@
+{% extends "admin/base.html" %}
+{% load i18n admin_urls static %}
+
+{% block extrahead %}{{ block.super }}
+    {{ media }}
+{% endblock %}
+
+{% block content %}
+<div id="content-main">
+    <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+        <fieldset class="module aligned">
+            <h2>Importar Artigos do Excel</h2>
+            <p>Por favor, selecione um arquivo Excel (.xlsx) para importar os artigos.</p>
+            <p>O arquivo Excel deve conter as seguintes colunas na primeira linha (cabeçalho):</p>
+            <ul>
+                <li><strong>titulo</strong>: O título do artigo.</li>
+                <li><strong>conteudo</strong>: O conteúdo do artigo.</li>
+                <li><strong>categoria_nome</strong>: O nome da categoria. Se a categoria não existir, ela será criada.</li>
+                <li><strong>autor_username</strong>: O nome de usuário do autor. Se o usuário não existir, o artigo será atribuído ao usuário logado.</li>
+            </ul>
+            {{ form.as_p }}
+        </fieldset>
+        <div class="submit-row">
+            <input type="submit" value="Importar" class="default" name="_import">
+        </div>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,68 @@
+/* 
+  Custom CSS for Artigo change form on Jazzmin theme.
+  This moves the right sidebar to the bottom, allowing the main editor to be full-width.
+*/
+
+/* Only apply these styles to the Artigo change form */
+
+/* Find the row that contains the main content and the sidebar */
+body.model-artigo .content-wrapper .content .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Target the main form column (usually col-lg-9 or similar) and the sidebar column (col-lg-3) */
+body.model-artigo .content-wrapper .content .row > .col-lg-9 {
+    width: 60vw !important;
+    flex: 0 0 60vw !important;
+    max-width: 60vw !important;
+}
+
+body.model-artigo .content-wrapper .content .row > .col-lg-3 {
+    width: 35vw !important;
+    flex: 0 0 35vw !important;
+    max-width: 35vw !important;
+}
+
+/* Add some space when the sidebar moves to the bottom */
+body.model-artigo .content-wrapper .content .row > [class*="col-"]:last-child {
+    margin-top: 20px;
+}
+
+/* --- Button Styles --- */
+
+/* Make the submit row a flex container */
+body.model-artigo .submit-row {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    align-items: center;
+    padding: 15px 0;
+}
+
+/* Style the individual buttons */
+body.model-artigo .submit-row input {
+    margin-left: 8px; /* Space between buttons */
+    font-size: 0.9em !important; /* Make font smaller */
+    padding: 8px 15px !important; /* Make padding smaller */
+    width: auto !important; /* Override default full-width */
+}
+
+/* Position the delete link to the far left */
+body.model-artigo .submit-row .deletelink-box {
+    margin-right: auto; /* Pushes itself to the left and other items to the right */
+}
+
+/* --- General Admin Styles --- */
+
+.main-sidebar {
+    width: 300px !important;
+}
+
+.content-wrapper, .main-footer, .main-header {
+    margin-left: 300px !important;
+}
+
+/* Hide user avatar in the top navbar */
+.navbar-nav .user-menu .user-image {
+    display: none !important;
+}

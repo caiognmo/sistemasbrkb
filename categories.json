@@ -1,0 +1,217 @@
+[
+    {
+        "name": "Primeiros passos",
+        "parent": null,
+        "ordem": 1
+    },
+    {
+        "name": "Funcionalidades",
+        "parent": null,
+        "ordem": 2
+    },
+    {
+        "name": "Clientes",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Fornecedores",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Transportadoras",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Produtos e Serviços",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Gestão de validade",
+        "parent": "Produtos e Serviços",
+        "ordem": 0
+    },
+    {
+        "name": "Estoque",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Registros (IMEI, Série)",
+        "parent": "Estoque",
+        "ordem": 0
+    },
+    {
+        "name": "Etiquetas",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Compras",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Cotação",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Ordem de Serviço",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Orçamento",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Pedidos",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Condicional",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Devolução",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Comissão",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Bonificação",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Financeiro",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Notificações",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Pré venda",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Entrega",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Delivery Sigecom",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Boletos",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Solicitação de compra",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Controle de promoções",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Kit de produtos",
+        "parent": "Funcionalidades",
+        "ordem": 0
+    },
+    {
+        "name": "Fiscal",
+        "parent": null,
+        "ordem": 3
+    },
+    {
+        "name": "NF-e",
+        "parent": "Fiscal",
+        "ordem": 0
+    },
+    {
+        "name": "SAT",
+        "parent": "Fiscal",
+        "ordem": 0
+    },
+    {
+        "name": "NFS-e",
+        "parent": "Fiscal",
+        "ordem": 0
+    },
+    {
+        "name": "NFC-e",
+        "parent": "Fiscal",
+        "ordem": 0
+    },
+    {
+        "name": "Relatórios",
+        "parent": null,
+        "ordem": 4
+    },
+    {
+        "name": "Vendas",
+        "parent": "Relatórios",
+        "ordem": 0
+    },
+    {
+        "name": "Balança",
+        "parent": "Relatórios",
+        "ordem": 0
+    },
+    {
+        "name": "Migrações",
+        "parent": null,
+        "ordem": 5
+    },
+    {
+        "name": "Integrações",
+        "parent": null,
+        "ordem": 6
+    },
+    {
+        "name": "Buscadores de preços",
+        "parent": "Integrações",
+        "ordem": 0
+    },
+    {
+        "name": "Apps",
+        "parent": null,
+        "ordem": 7
+    },
+    {
+        "name": "SigeDash",
+        "parent": "Apps",
+        "ordem": 0
+    },
+    {
+        "name": "Indicadores",
+        "parent": null,
+        "ordem": 8
+    },
+    {
+        "name": "PDVgo",
+        "parent": null,
+        "ordem": 9
+    }
+]

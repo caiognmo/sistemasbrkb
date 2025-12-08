@@ -1,0 +1,31 @@
+{% load kb_custom_filters %}
+
+<li class="{% if category.type == 'artigo' %}article-item{% else %}category-item{% endif %}">
+    <div class="category-row">
+        {% if category.type == 'artigo' %}
+            <a href="{{ category.get_absolute_url }}">{{ forloop.counter }}. {{ category.titulo|strip_prefix }}
+            {% if category.show_new_in_category_list %}
+                <span class="new-tag">NOVO</span>
+            {% endif %}
+            </a>
+        {% else %}
+            <a href="{% url 'kb:artigo-list' category.id %}">{{ forloop.counter }}. {{ category.nome|strip_prefix }}
+            {% if category|has_new_articles_in_category %}
+                <span class="new-tag">NOVO</span>
+            {% endif %}
+            </a>
+            {% if category.ordered_children %}
+                <span class="toggle-children"></span>
+            {% endif %}
+        {% endif %}
+    </div>
+    {% if category.type == 'category' and category.ordered_children %}
+        <ul class="child-categories">
+            {% for child in category.ordered_children %}
+                {% with category=child %}
+                    {% include "kb/includes/category_node.html" %}
+                {% endwith %}
+            {% endfor %}
+        </ul>
+    {% endif %}
+</li>

@@ -1,0 +1,42 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls %}
+
+{% block content %}
+<div id="content-main">
+    <div class="module">
+        <h2>Feedback Details</h2>
+        <fieldset class="module aligned">
+            <div class="form-row">
+                <div>
+                    <label>{% trans 'Artigo' %}:</label>
+                    <p>{{ original.artigo }}</p>
+                </div>
+            </div>
+            <div class="form-row">
+                <div>
+                    <label>{% trans 'Rating' %}:</label>
+                    <p>{% if original.rating %}<i class="fas fa-thumbs-up" style="color: green;"></i> Like{% else %}<i class="fas fa-thumbs-down" style="color: red;"></i> Dislike{% endif %}</p>
+                </div>
+            </div>
+            <div class="form-row">
+                <div>
+                    <label>{% trans 'Reason' %}:</label>
+                    <p>{{ original.reason|default:"-" }}</p>
+                </div>
+            </div>
+            <div class="form-row">
+                <div>
+                    <label>{% trans 'Comment' %}:</label>
+                    <p>{{ original.comment|default:"-" }}</p>
+                </div>
+            </div>
+            <div class="form-row">
+                <div>
+                    <label>{% trans 'Created at' %}:</label>
+                    <p>{{ original.created_at }}</p>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+{% endblock %}

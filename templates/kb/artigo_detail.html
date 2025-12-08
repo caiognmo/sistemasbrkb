@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% load kb_tags %}
+
+{% block title %}
+{{ artigo.titulo }} - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <p><a href="{% url 'kb:home' %}" class="btn btn-secondary">&larr; Voltar para a página inicial</a></p>
+    <div class="breadcrumbs">
+        {% breadcrumbs artigo.categoria %}
+    </div>
+    <h1>
+        {{ artigo.titulo }}
+        {% if artigo.show_new_in_title %}
+            <span class="new-tag new-tag-post-title">NOVO</span>
+        {% endif %}
+    </h1>
+    <div class="author-info" style="font-size: 0.85em; color: #6c757d;">
+        <div>
+            Publicado por <strong>{% if artigo.autor %}{{ artigo.autor.get_full_name|default:artigo.autor.username }}{% else %}Autor desconhecido{% endif %}</strong> em {{ artigo.data_publicacao|date:"d/m/Y H:i" }}<br>
+            Última atualização por <strong>{% if artigo.autor %}{{ artigo.autor.get_full_name|default:artigo.autor.username }}{% else %}Autor desconhecido{% endif %}</strong> em {{ artigo.ultima_atualizacao|date:"d/m/Y H:i" }}
+        </div>
+    </div>
+    <hr>
+    <div style="margin-top: 1rem;">
+        {{ artigo.conteudo|safe }}
+    </div>
+
+    <div class="feedback-section">
+        <h3>Este artigo foi útil para você?</h3>
+        <div class="feedback-buttons">
+            <button class="btn btn-like like-btn"><i class="fa-solid fa-thumbs-up"></i></button>
+            <button class="btn btn-dislike dislike-btn"><i class="fa-solid fa-thumbs-down"></i></button>
+        </div>
+        <div class="feedback-form-container" style="display: none;">
+            <form method="post" class="feedback-form" action="{% url 'kb:feedback' %}">
+                {% csrf_token %}
+                <input type="hidden" name="artigo" value="{{ artigo.id }}">
+                <input type="hidden" name="rating" class="rating-input">
+                <div class="dislike-reasons" style="display: none;">
+                    <p>O que não gostou?</p>
+                    <div class="radio-group">
+                        <label><input type="radio" name="reason" value="dificil_de_entender"> Difícil de entender</label>
+                        <label><input type="radio" name="reason" value="link_quebrado"> Link quebrado</label>
+                        <label><input type="radio" name="reason" value="conteudo_irrelevante"> Conteúdo irrelevante</label>
+                        <label><input type="radio" name="reason" value="precisa_de_mais_informacoes"> Precisa de mais informações</label>
+                    </div>
+                </div>
+                <div class="comment-field">
+                    <label for="comment">Comentário:</label>
+                    <textarea name="comment" id="comment" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        <div class="thank-you-message" style="display: none;">
+            <p>Obrigado pelo seu feedback!</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const likeBtn = document.querySelector('.like-btn');
+            const dislikeBtn = document.querySelector('.dislike-btn');
+            const feedbackFormContainer = document.querySelector('.feedback-form-container');
+            const ratingInput = document.querySelector('.rating-input');
+            const dislikeReasons = document.querySelector('.dislike-reasons');
+            const thankYouMessage = document.querySelector('.thank-you-message');
+            const feedbackForm = document.querySelector('.feedback-form');
+            const feedbackButtons = document.querySelector('.feedback-buttons');
+
+            likeBtn.addEventListener('click', function() {
+                ratingInput.value = 'true';
+                feedbackFormContainer.style.display = 'block';
+                dislikeReasons.style.display = 'none';
+            });
+
+            dislikeBtn.addEventListener('click', function() {
+                ratingInput.value = 'false';
+                feedbackFormContainer.style.display = 'block';
+                dislikeReasons.style.display = 'block';
+            });
+
+            feedbackForm.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const formData = new FormData(feedbackForm);
+
+                fetch(feedbackForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'X-CSRFToken': formData.get('csrfmiddlewaretoken')
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        feedbackFormContainer.style.display = 'none';
+                        feedbackButtons.style.display = 'none';
+                        thankYouMessage.style.display = 'block';
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+            });
+        });
+
+        // 2. Este código carrega a API do IFrame Player do YouTube de forma assíncrona.
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var players = {}; // Objeto para armazenar os players do YouTube
+
+        function onYouTubeIframeAPIReady() {
+            document.querySelectorAll('iframe[src*="youtube.com/embed/"], iframe[src*="youtube-nocookie.com/embed/"]').forEach((iframe, index) => {
+                const originalSrc = iframe.src;
+                let videoId = '';
+
+                const youtubeRegex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/i;
+                const match = originalSrc.match(youtubeRegex);
+                if (match && match[1]) {
+                    videoId = match[1];
+                }
+
+                if (videoId) {
+                    // Atribuir um ID único ao iframe se ele não tiver um
+                    if (!iframe.id) {
+                        iframe.id = 'youtube-player-' + index;
+                    }
+
+                    // Construir a URL do player com os parâmetros necessários
+                    let playerUrl = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=${window.location.origin}`;
+                    if (iframe.src.includes('autoplay=1')) playerUrl += '&autoplay=1';
+                    if (iframe.src.includes('loop=1')) playerUrl += '&loop=1';
+                    if (iframe.src.includes('controls=0')) playerUrl += '&controls=0';
+                    if (iframe.src.includes('modestbranding=1')) playerUrl += '&modestbranding=1';
+                    if (iframe.src.includes('fs=0')) playerUrl += '&fs=0';
+
+                    iframe.src = playerUrl;
+
+                    players[iframe.id] = new YT.Player(iframe.id, {
+                        height: iframe.height || '315',
+                        width: iframe.width || '560',
+                        videoId: videoId,
+                        playerVars: {
+                            'origin': window.location.origin // Importante para segurança
+                        },
+                        events: {
+                            'onReady': onPlayerReady,
+                            'onStateChange': onPlayerStateChange
+                        }
+                    });
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            // event.target.playVideo(); // Opcional: reproduzir o vídeo automaticamente
+        }
+
+        function onPlayerStateChange(event) {
+            // Lógica para quando o estado do player muda (ex: pausar, reproduzir)
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "admin/change_list.html" %}
+{% load i18n static %}
+
+{% block content %}
+<div style="display: flex; align-items: flex-start;">
+    <div style="flex: 1;">
+        {{ block.super }}
+    </div>
+    <div style="width: 40%; margin-left: 20px;">
+        <div class="chart-container">
+            <canvas id="feedbackChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const ctx = document.getElementById('feedbackChart').getContext('2d');
+        const feedbackChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: {{ chart_data.labels|safe }},
+                datasets: [{
+                    label: 'Feedback',
+                    data: {{ chart_data.data|safe }},
+                    backgroundColor: [
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(255, 99, 132, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(255, 99, 132, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Feedback Overview'
+                    }
+                }
+            }
+        });
+    });
+</script>
+{% endblock %}

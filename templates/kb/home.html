@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load kb_custom_filters %}
+
+{% block title %}
+Início - {{ block.super }}
+{% endblock %}
+
+{% block search_section %}
+<section class="search-section" style="background-color: #3A73C9; padding: 2rem 1rem; text-align: center; color: white;">
+    <div class="container">
+        <h2>Digite o que você procura</h2>
+        <form action="{% url 'kb:artigo-search' %}" method="get" class="search-form">
+            <div class="search-box">
+                <i class="fa fa-search search-icon"></i>
+                <input type="text" name="q" placeholder="Pesquisar artigos..." class="search-input">
+            </div>
+        </form>
+    </div>
+</section>
+{% endblock %}
+
+{% block content %}
+    
+    
+    {% if categorias_principais %}
+        <div class="card-grid">
+            {% for categoria in categorias_principais %}
+                <div class="card">
+                    <div class="card-icon-area">
+                        {% with icon_class=categoria.icon|default:'fa-solid fa-folder' %}
+                            <i class="{{ icon_class }} fa-3x"></i>
+                        {% endwith %}
+                    </div>
+                    <div class="card-content-area">
+                        <h3 class="card-title">
+                            <a href="{% url 'kb:artigo-list' categoria.id %}">{{ forloop.counter }}. {{ categoria.nome|strip_prefix }}
+                            {% if categoria|has_new_articles_in_category %}
+                                <span class="new-tag">NOVO</span>
+                            {% endif %}
+                            </a>
+                        </h3>
+                        <p class="card-description">{{ categoria.descricao|truncatewords:15 }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p>Nenhuma categoria encontrada.</p>
+    {% endif %}
+{% endblock %}

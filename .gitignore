@@ -1,0 +1,26 @@
+# Virtualenv
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database
+db.sqlite3
+
+# Media and static files
+media/
+staticfiles/
+
+# IDEs
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Ignored directories
+Base Definitiva/

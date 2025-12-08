@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% load kb_custom_filters %}
+
+{% block title %}
+{% if query %}
+Resultados da busca por "{{ query }}"
+{% else %}
+{{ categoria.nome }}
+{% endif %}
+ - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    {% if query %}
+        <h2 class="search-results-title">Resultados da busca por "{{ query }}"</h2>
+        {% if artigos %}
+            <div class="search-results-container">
+                {% for artigo in artigos %}
+                    <div class="search-result-item">
+                        <h3>
+                            <a href="{{ artigo.get_absolute_url }}">{{ artigo.titulo|strip_prefix }}</a>
+                        </h3>
+                        <p class="search-result-summary">
+                            {{ artigo.conteudo|striptags|truncatewords:30 }}
+                        </p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>Nenhum artigo encontrado para sua busca.</p>
+        {% endif %}
+
+    {% else %}
+        <h2>{{ categoria.nome }}</h2>
+        <p><a href="{% url 'kb:home' %}" class="btn btn-secondary">&larr; Voltar para a página inicial</a></p>
+
+        {% if subcategorias %}
+            <h3>Subcategorias</h3>
+            <div class="card-grid">
+                {% for subcategoria in subcategorias %}
+                    <div class="card">
+                        <div class="card-icon-area">
+                            {% if subcategoria.icon %}
+                                <i class="{{ subcategoria.icon }} fa-3x"></i>
+                            {% else %}
+                                <i class="fa-solid fa-folder fa-3x"></i>
+                            {% endif %}
+                        </div>
+                        <div class="card-content-area">
+                            <h3 class="card-title">
+                                <a href="{% url 'kb:artigo-list' subcategoria.id %}">{{ subcategoria.nome }}
+                                {% if subcategoria.artigos.all|has_new_articles_in_subcategory %}
+                                    <span class="new-tag">NOVO</span>
+                                {% endif %}
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <hr>
+        {% endif %}
+
+        {% if artigos %}
+            <h3>Artigos</h3>
+            <ul class="article-list">
+                {% for artigo in artigos %}
+                    <li>
+                        <a href="{{ artigo.get_absolute_url }}">{{ forloop.counter }} - {{ artigo.titulo }}
+                        {% if artigo.show_new_in_category_list %}
+                            <span class="new-tag">NOVO</span>
+                        {% endif %}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Nenhum artigo encontrado nesta categoria.</p>
+        {% endif %}
+    {% endif %}
+{% endblock %}

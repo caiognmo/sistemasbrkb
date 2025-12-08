@@ -1,0 +1,1401 @@
+[
+    {
+        "type": "category",
+        "name": "Primeiros passos",
+        "subcategories": [],
+        "articles": [
+            {
+                "type": "article",
+                "id": "219538",
+                "title": "Comece por aqui",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/219538/comece-por-aqui80c0.html?menuId=23703-64529-219538&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "224760",
+                "title": "Instalação e parâmetros iniciais",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/224760/01-instalacao-e-parametros-inciais244b.html?menuId=23703-64529-224760&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "218697",
+                "title": "Cadastro de estação",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/218697/cadastro-estacao-sigecom02cb.html?menuId=23703-64529-218697&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "219714",
+                "title": "Cadastro de colaboradores",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/219714/cadastro-de-colaboradores2930.html?menuId=23703-64529-219714&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "219851",
+                "title": "Cadastro de usuários",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/219851/05-cadastro-de-usuariosc59c.html?menuId=23703-64529-219851&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "221899",
+                "title": "Permissões de usuário",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/221899/01-permissoes-de-usuario6794.html?menuId=23703-64529-221899&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "224752",
+                "title": "1 - Exportação e importação de permissões",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/224752/importar-exportar-permissaoe90a.html?menuId=23703-64529-224752&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "218804",
+                "title": "Cadastro de taxas do cartão",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/218804/cadastro-de-taxas-do-cartao2bb5.html?menuId=23703-64529-218804&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "224778",
+                "title": "Tipos de documento",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/224778/tipos-de-documento7c36.html?menuId=23703-64529-224778&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "225343",
+                "title": "Compensação automática dos cartões",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/225343/compensacao-automatica-dos-cartoes28fc.html?menuId=23703-64529-225343&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "225346",
+                "title": "Assistente de formas de pagamento",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/225346/assistente-formas-de-pagamentod7e4.html?menuId=23703-64529-225346&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "225385",
+                "title": "Assistente de fluxo de operações",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/225385/11-assistente-de-fluxo-de-operacoesecfd.html?menuId=23703-64529-225385&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "225374",
+                "title": "Cadastro de caixas",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/225374/cadastro-de-caixas7c47.html?menuId=23703-64529-225374&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "227453",
+                "title": "Planos de conta",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227453/planos-de-contad90d.html?menuId=23703-64529-227453&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "237176",
+                "title": "Backup do banco de dados",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/237176/14-backup-do-banco-de-dados67fd.html?menuId=23703-64529-237176&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "240696",
+                "title": "Configurações do TEF",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240696/configuracoes-do-tefc51f.html?menuId=23703-64529-240696&ticketId=&q="
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "name": "Funcionalidades",
+        "subcategories": [
+            {
+                "type": "category",
+                "name": "Clientes",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "218899",
+                        "title": "Cadastro de clientes",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/218899/cadastro-de-clientese8f3.html?menuId=23876-64815-218899&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "220052",
+                        "title": "Desconto padrão e tabela de preço",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/220052/02-desconto-padrao-e-tabela-de-preco2ae0.html?menuId=23876-64815-220052&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "118861",
+                        "title": "Controle de aniversariantes",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/118861/controle-aniversariantesff4b.html?menuId=23876-64815-118861&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "120781",
+                        "title": "Contratando a utilização de SMS e compra de crédito",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/120781/contratando-a-utilizacao-de-sms-e-compra-de-credito41d2.html?menuId=23876-64815-120781&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Fornecedores",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "220020",
+                        "title": "Cadastro de fornecedores",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/220020/cadastro-de-fornecedores0920.html?menuId=23876-64823-220020&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Transportadoras",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "221594",
+                        "title": "Cadastro de transportadoras",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/221594/cadastro-de-transportadoras18eb.html?menuId=23876-65217-221594&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Produtos e Serviços",
+                "subcategories": [
+                    {
+                        "type": "category",
+                        "name": "Gestão de validade",
+                        "subcategories": [],
+                        "articles": [
+                            {
+                                "type": "article",
+                                "id": "533683",
+                                "title": "Gestão de validade",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/533683/01-gestao-de-controle-de-validadec4c7.html?menuId=23876-138071-533683&ticketId=&q="
+                            },
+                            {
+                                "type": "article",
+                                "id": "533617",
+                                "title": "Cadastro de validade",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/533617/controle-de-validade-de-produtos7140.html?menuId=23876-138071-533617&ticketId=&q="
+                            },
+                            {
+                                "type": "article",
+                                "id": "533653",
+                                "title": "Controle de validade",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/533653/02-controle-de-validadea6e0.html?menuId=23876-138071-533653&ticketId=&q="
+                            }
+                        ]
+                    }
+                ],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "219535",
+                        "title": "Cadastro de produtos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/219535/cadastro-de-produtosfa31.html?menuId=23876-64824-219535&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "218840",
+                        "title": "Cadastro de categorias",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/218840/cadastro-de-categoriasd9d9.html?menuId=23876-64824-218840&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "218851",
+                        "title": "Cadastro de marcas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/218851/cadastro-de-marcas32be.html?menuId=23876-64824-218851&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "220277",
+                        "title": "Balança",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/220277/balancaed0c.html?menuId=23876-64824-220277&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "221591",
+                        "title": "Tabelas de preço",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/221591/06-tabelas-de-precof9ee.html?menuId=23876-64824-221591&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "224753",
+                        "title": "1 - Permissões na tabela de preço",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/224753/permissoes-na-tabela-de-preco2cb7.html?menuId=23876-64824-224753&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "225461",
+                        "title": "Grade de itens",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/225461/grade-de-itens2be6.html?menuId=23876-64824-225461&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "221918",
+                        "title": "Cadastro unidades de medida",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/221918/07-cadastro-unidades-de-medida5410.html?menuId=23876-64824-221918&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "240669",
+                        "title": "Função repetir",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240669/funcao-repetir347c.html?menuId=23876-64824-240669&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "275020",
+                        "title": "Cadastro de serviços",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/275020/09-cadastro-de-servicos1730.html?menuId=23876-64824-275020&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "367165",
+                        "title": "Pesquisa de produtos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/367165/pesquisa-de-produtosf07f.html?menuId=23876-64824-367165&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Estoque",
+                "subcategories": [
+                    {
+                        "type": "category",
+                        "name": "Registros (IMEI, Série)",
+                        "subcategories": [],
+                        "articles": [
+                            {
+                                "type": "article",
+                                "id": "299002",
+                                "title": "Introdução e configuração de registros de estoque (IMEI, Série)",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/299002/introducao-configuracao-imei-serie3ff0.html?menuId=23876-83513-299002&ticketId=&q="
+                            },
+                            {
+                                "type": "article",
+                                "id": "301505",
+                                "title": "Manutenção no cadastro de produtos (IMEI, Série)",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/301505/manutencao-no-cadastro-de-produtos-imei-serie6509.html?menuId=23876-83513-301505&ticketId=&q="
+                            },
+                            {
+                                "type": "article",
+                                "id": "301506",
+                                "title": "Fluxos de saída de registros (IMEI, Série)",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/301506/fluxos-de-saida-de-registros-imei-serief74a.html?menuId=23876-83513-301506&ticketId=&q="
+                            },
+                            {
+                                "type": "article",
+                                "id": "301507",
+                                "title": "Fluxo de troca de produtos com registros (IMEI, Série)",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/301507/fluxo-de-troca-de-produtos-com-registros-imei-serie797d.html?menuId=23876-83513-301507&ticketId=&q="
+                            },
+                            {
+                                "type": "article",
+                                "id": "301508",
+                                "title": "Emissão de NF-e de produtos com registros (IMEI, Série)",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/301508/emissao-de-nf-e-de-produtos-com-registros-imei-serie0912.html?menuId=23876-83513-301508&ticketId=&q="
+                            },
+                            {
+                                "type": "article",
+                                "id": "301509",
+                                "title": "Fluxo de entrada de registros por compras (IMEI, Série)",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/301509/fluxo-de-entrada-de-registros-por-compras-imei-seriefee9.html?menuId=23876-83513-301509&ticketId=&q="
+                            },
+                            {
+                                "type": "article",
+                                "id": "301510",
+                                "title": "Manutenção do estoque com registros (IMEI, Série)",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/301510/manutencao-do-estoque-com-registros-imei-serie3c7f.html?menuId=23876-83513-301510&ticketId=&q="
+                            },
+                            {
+                                "type": "article",
+                                "id": "301511",
+                                "title": "Logs de movimentação de registros (IMEI, Série)",
+                                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/301511/logs-de-movimentacao-de-registros-imei-serie444d.html?menuId=23876-83513-301511&ticketId=&q="
+                            }
+                        ]
+                    }
+                ],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "227362",
+                        "title": "Análise de estoque",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227362/analise-de-estoque6742.html?menuId=23876-66669-227362&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "227364",
+                        "title": "Manutenção de estoque",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227364/manutencao-de-estoque9d2d.html?menuId=23876-66669-227364&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "227366",
+                        "title": "Entradas e saídas gerais",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227366/entradas-e-saidas-gerais3f8d.html?menuId=23876-66669-227366&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Etiquetas",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "227370",
+                        "title": "Configurar nova etiqueta",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227370/configurar-nova-etiquetaae3c.html?menuId=23876-66670-227370&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "227376",
+                        "title": "Imprimir etiquetas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227376/imprimir-etiquetase2b9.html?menuId=23876-66670-227376&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Compras",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "227396",
+                        "title": "Modulo de compras",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227396/modulo-de-compras2d78.html?menuId=23876-66671-227396&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "227425",
+                        "title": "Compra utilizando arquivo XML",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227425/compra-utilizando-arquivo-xml7cee.html?menuId=23876-66671-227425&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "227431",
+                        "title": "Compra de mercadoria sem arquivo XML",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227431/compra-sem-xmlc83b.html?menuId=23876-66671-227431&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "227447",
+                        "title": "Consultar compras",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227447/consultar-compras65c2.html?menuId=23876-66671-227447&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Cotação",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "227433",
+                        "title": "Cotação de itens",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227433/cotacao-de-itens41e7.html?menuId=23876-66679-227433&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "227437",
+                        "title": "Consultar cotação",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/227437/consultar-cotacao72d5.html?menuId=23876-66679-227437&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Ordem de Serviço",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "233433",
+                        "title": "Parametrização da OS",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/233433/parametrizacao-da-osaee5.html?menuId=23876-68346-233433&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "233426",
+                        "title": "Cadastro de tipos de OS",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/233426/cadastro-de-tipos-de-osed03.html?menuId=23876-68346-233426&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "233427",
+                        "title": "Cadastro de status de OS",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/233427/cadastro-de-status-de-os0e72.html?menuId=23876-68346-233427&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "233424",
+                        "title": "Ordem de serviço",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/233424/nova-ordem-de-servico804d.html?menuId=23876-68346-233424&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "233437",
+                        "title": "Consulta de OS",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/233437/consulta-de-os957c.html?menuId=23876-68346-233437&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "233493",
+                        "title": "Parâmetros adicionais da OS",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/233493/parametros-adicionais-da-ose788.html?menuId=23876-68346-233493&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236216",
+                        "title": "Controle de objetos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236216/controle-de-objetosb335.html?menuId=23876-68346-236216&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "238890",
+                        "title": "Aviso de vencimento de OS",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/238890/aviso-de-vencimento-de-osfb9a.html?menuId=23876-68346-238890&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Orçamento",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "221581",
+                        "title": "Tipos de orçamento",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/221581/tipos-de-orcamento8444.html?menuId=23876-65199-221581&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "221576",
+                        "title": "Status de orçamento",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/221576/status-de-orcamentof8e3.html?menuId=23876-65199-221576&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "221582",
+                        "title": "Realizando orçamento",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/221582/realizando-orcamentod452.html?menuId=23876-65199-221582&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "221588",
+                        "title": "Consulta de orçamentos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/221588/consulta-de-orcamentos69b0.html?menuId=23876-65199-221588&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Pedidos",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "236230",
+                        "title": "PDV",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236230/pdvfbbc.html?menuId=23876-68935-236230&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236275",
+                        "title": "Pedido",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236275/pedidobbae.html?menuId=23876-68935-236275&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236277",
+                        "title": "Troca",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236277/03-trocaea07.html?menuId=23876-68935-236277&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236281",
+                        "title": "Parâmetros de vendas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236281/04-parametros-de-vendasad54.html?menuId=23876-68935-236281&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236284",
+                        "title": "Consultar vendas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236284/consultar-vendas50cc.html?menuId=23876-68935-236284&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236432",
+                        "title": "Carrinho",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236432/carrinhoe8bf.html?menuId=23876-68935-236432&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Condicional",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "236237",
+                        "title": "Condicional",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236237/condicional5f6f.html?menuId=23876-68936-236237&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236239",
+                        "title": "Consultar Condicional",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236239/consultar-condicional17c4.html?menuId=23876-68936-236239&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Devolução",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "236250",
+                        "title": "Devolução",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236250/devolucaod065.html?menuId=23876-68939-236250&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236254",
+                        "title": "Consultar Devolução",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236254/consultar-devolucaod2d4.html?menuId=23876-68939-236254&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Comissão",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "400468",
+                        "title": "Configurando o módulo de comissão",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/400468/configurando-o-modulo-de-comissao15af.html?menuId=23876-108687-400468&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Bonificação",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "236243",
+                        "title": "Bonificação",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236243/bonificacao84ba.html?menuId=23876-68938-236243&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236245",
+                        "title": "Consultar Bonificação",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236245/consultar-bonificacao5467.html?menuId=23876-68938-236245&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Financeiro",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "225423",
+                        "title": "Caixa",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/225423/caixa0c0a.html?menuId=23876-66172-225423&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "326557",
+                        "title": "Conferência de caixa",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/326557/conferencia-de-caixa2cb9.html?menuId=23876-66172-326557&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236300",
+                        "title": "Contas a receber",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236300/contas-a-receber9ce1.html?menuId=23876-66172-236300&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236321",
+                        "title": "Contas recebidas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236321/contas-recebidas7112.html?menuId=23876-66172-236321&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236327",
+                        "title": "Contas a pagar",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236327/contas-a-pagar0cd6.html?menuId=23876-66172-236327&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236330",
+                        "title": "Contas pagas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236330/contas-pagasf284.html?menuId=23876-66172-236330&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236420",
+                        "title": "Controle de cheques",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236420/controle-cheques0aa1.html?menuId=23876-66172-236420&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236308",
+                        "title": "Cadastrar conta bancária",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236308/cadastrar-conta-bancariaba4f.html?menuId=23876-66172-236308&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236337",
+                        "title": "Controle bancário",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236337/controle-bancario9e88.html?menuId=23876-66172-236337&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "398533",
+                        "title": "Importação de arquivo OFX",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/398533/importacao-de-arquivo-ofxa3ac.html?menuId=23876-66172-398533&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236339",
+                        "title": "Controle do cartão",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236339/controle-do-cartao63d7.html?menuId=23876-66172-236339&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236334",
+                        "title": "Calendário de contas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236334/calendario-de-contasc613.html?menuId=23876-66172-236334&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236372",
+                        "title": "Controle de acordos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236372/controle-de-acordosef0a.html?menuId=23876-66172-236372&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236408",
+                        "title": "Controle de inadimplência",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236408/controle-de-inadimplenciabf80.html?menuId=23876-66172-236408&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Notificações",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "236295",
+                        "title": "Notificações",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236295/01-notificacoes1be7.html?menuId=23876-68946-236295&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Pré venda",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "236311",
+                        "title": "Pré venda",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236311/pre-vendaf4ae.html?menuId=23876-68947-236311&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236313",
+                        "title": "Consultar Pré venda",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236313/consultar-pre-vendaf56d.html?menuId=23876-68947-236313&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Entrega",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "236316",
+                        "title": "Entrega",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236316/entrega1fda.html?menuId=23876-68948-236316&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Delivery Sigecom",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "277881",
+                        "title": "Configurações de impressão",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/277881/configuracoes-de-impressao-deliverya0e0.html?menuId=23876-78580-277881&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "277883",
+                        "title": "Cadastros: Area de entrega e Motoboy",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/277883/cadastros-area-de-entrega-e-motoboy6cef.html?menuId=23876-78580-277883&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "277886",
+                        "title": "Cadastro de complementos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/277886/cadastro-de-complementose8a0.html?menuId=23876-78580-277886&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "277887",
+                        "title": "Sigecom Delivery",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/277887/sigecom-delivery7bc9.html?menuId=23876-78580-277887&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "277888",
+                        "title": "Relatório de entregas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/277888/relatorio-de-entregas3ea8.html?menuId=23876-78580-277888&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Boletos",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "302770",
+                        "title": "Configurando a emissão do boleto",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/302770/configurando-a-emissao-do-boletoac15.html?menuId=23876-83894-302770&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "302772",
+                        "title": "Emissão de boleto bancário",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/302772/emissao-de-boleto8a38.html?menuId=23876-83894-302772&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "302774",
+                        "title": "Controle de boletos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/302774/controle-de-boletos2cbf.html?menuId=23876-83894-302774&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "302775",
+                        "title": "Transmissão automática",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/302775/transmissao-automatica38d1.html?menuId=23876-83894-302775&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Solicitação de compra",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "376756",
+                        "title": "Solicitação de compra",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/376756/01-solicitacao-de-comprad7d6.html?menuId=23876-102471-376756&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "376872",
+                        "title": "Consultar solicitações",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/376872/02-consultar-solicitacoes4e52.html?menuId=23876-102471-376872&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Controle de promoções",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "459369",
+                        "title": "Controle de promoções",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/459369/controle-de-promocoes674d.html?menuId=23876-126284-459369&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Kit de produtos",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "469761",
+                        "title": "Funcionamento do kit de produtos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/469761/kit-de-produtosf739.html?menuId=23876-126227-469761&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "476776",
+                        "title": "Cadastro de kit de produtos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/476776/cadastro-kit-de-produtoscd97.html?menuId=23876-126227-476776&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "477314",
+                        "title": "Desativar e reativar kit de produtos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/477314/desativar-e-reativar-kit-de-produtos2068.html?menuId=23876-126227-477314&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "477320",
+                        "title": "Clonar kit de produtos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/477320/clonar-kit-de-produtosff73.html?menuId=23876-126227-477320&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "477409",
+                        "title": "Emissões fiscais do kit de produtos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/477409/emissao-fiscal-do-kit-de-produtosa7a4.html?menuId=23876-126227-477409&ticketId=&q="
+                    }
+                ]
+            }
+        ],
+        "articles": []
+    },
+    {
+        "type": "category",
+        "name": "Fiscal",
+        "subcategories": [
+            {
+                "type": "category",
+                "name": "NF-e",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "236438",
+                        "title": "Emissão de NF-e",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236438/emissao-de-nf-e9513.html?menuId=25518-68957-236438&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "236441",
+                        "title": "Consulta de NF-e",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/236441/consulta-de-nf-eff3c.html?menuId=25518-68957-236441&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "SAT",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "251260",
+                        "title": "Configurando S@T",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/251260/configurando-o-sat336b.html?menuId=25518-72275-251260&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "251541",
+                        "title": "Emissão de S@T",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/251541/emissao-de-satfc9f.html?menuId=25518-72275-251541&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "252372",
+                        "title": "Controle de S@T",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/252372/controle-de-sat669a.html?menuId=25518-72275-252372&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "NFS-e",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "276706",
+                        "title": "Emissão de NFS-e",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/276706/emissao-de-nfs-e88b4.html?menuId=25518-73071-276706&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "276707",
+                        "title": "Consulta de NFS-e",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/276707/consulta-de-nfs-e983b.html?menuId=25518-73071-276707&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "257065",
+                        "title": "Cancelamento de NFS-e",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/257065/cancelamento-de-nfsefab9.html?menuId=25518-73071-257065&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "NFC-e",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "326775",
+                        "title": "Autorização de NFC-e em contingência em massa",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/326775/autorizacao-de-nfc-e-em-contingencia-em-massa273b.html?menuId=25518-90337-326775&ticketId=&q="
+                    }
+                ]
+            }
+        ],
+        "articles": [
+            {
+                "type": "article",
+                "id": "237166",
+                "title": "Fechamento fiscal",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/237166/fechamento-fiscal4f36.html?menuId=25518-68956-237166&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "237171",
+                "title": "Tabela IBPT",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/237171/03-tabela-ibpt2ecd.html?menuId=25518-68956-237171&ticketId=&q="
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "name": "Relatórios",
+        "subcategories": [
+            {
+                "type": "category",
+                "name": "Vendas",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "237148",
+                        "title": "Resumo de vendas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/237148/01-resumo-de-vendasd52a.html?menuId=25848-69105-237148&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "237153",
+                        "title": "Resumo de faturamentos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/237153/0243ad.html?menuId=25848-69105-237153&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "237162",
+                        "title": "Produtos mais, menos e não vendidos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/237162/03-produtos-mais-menos-e-nao-vendidosbe17.html?menuId=25848-69105-237162&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "238026",
+                        "title": "Consumo de clientes",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/238026/consumo-de-clientes1005.html?menuId=25848-69105-238026&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "238030",
+                        "title": "Relação de faturamentos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/238030/relacao-de-faturamentosb5f8.html?menuId=25848-69105-238030&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "238035",
+                        "title": "Análise de faturamentos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/238035/analise-de-faturamentos9ebb.html?menuId=25848-69105-238035&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "238036",
+                        "title": "Curva ABC de vendas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/238036/curva-abc-de-vendasb712.html?menuId=25848-69105-238036&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "238037",
+                        "title": "Ranking de vendas",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/238037/ranking-de-vendas0fee.html?menuId=25848-69105-238037&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Ordem de serviço",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "238041",
+                        "title": "Ordem de serviços",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/238041/ordem-de-servicos9266.html?menuId=25848-69401-238041&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "238043",
+                        "title": "Serviços finalizados com comissão",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/238043/servicos-finalizados-com-comissao69a3.html?menuId=25848-69401-238043&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Orçamentos",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "238044",
+                        "title": "Relatório de orçamentos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/238044/01-relatorio-de-orcamentosa2d2.html?menuId=25848-69403-238044&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Compras",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "240031",
+                        "title": "Relatório de compras",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240031/relatorio-de-compras2ce2.html?menuId=25848-69762-240031&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "240036",
+                        "title": "Relatório frequência de compras",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240036/relatorio-frequencia-de-compras9129.html?menuId=25848-69762-240036&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Estoque",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "240038",
+                        "title": "Relatório conferência de estoque",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240038/relatorio-conferencia-de-estoque65d1.html?menuId=25848-69763-240038&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "240042",
+                        "title": "Relatório balanço de estoque",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240042/02-relatorio6b23.html?menuId=25848-69763-240042&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "240045",
+                        "title": "Análise de movimentações de estoque",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240045/analise-de-movimentacoes-de-estoque8272.html?menuId=25848-69763-240045&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "302604",
+                        "title": "Inventário de estoque",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/302604/inventario-de-estoque7458.html?menuId=25848-69763-302604&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Balança",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "240048",
+                        "title": "Listagem de códigos de balança",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240048/listagem-de-codigos-de-balanca056c.html?menuId=25848-69764-240048&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Devoluções",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "240055",
+                        "title": "Relatório de devoluções",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240055/relatorio-de-devolucoes24aa.html?menuId=25848-69766-240055&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Bonificação",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "240050",
+                        "title": "Relatório de bonificações",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240050/relatorio-bonificacoesaf07.html?menuId=25848-69765-240050&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Financeiro",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "240638",
+                        "title": "Relatório de contas a receber",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240638/relatorio-de-contas-a-receber09d8.html?menuId=25848-69801-240638&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "240643",
+                        "title": "Relatório contas a pagar",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240643/contas-a-pagar0252.html?menuId=25848-69801-240643&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "240647",
+                        "title": "Relatório boletos emitidos",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240647/relatorio-boletos-emitidos98e2.html?menuId=25848-69801-240647&ticketId=&q="
+                    }
+                ]
+            },
+            {
+                "type": "category",
+                "name": "Fiscal",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "243091",
+                        "title": "Relatório de NFe",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/243091/relatorio-de-nfed59a.html?menuId=25848-70347-243091&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "243096",
+                        "title": "Relatório de operações fiscais",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/243096/relatorio-de-operacoes-fiscaisbfc8.html?menuId=25848-70347-243096&ticketId=&q="
+                    }
+                ]
+            }
+        ],
+        "articles": []
+    },
+    {
+        "type": "category",
+        "name": "Migrações",
+        "subcategories": [],
+        "articles": [
+            {
+                "type": "article",
+                "id": "240163",
+                "title": "Migração de clientes",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240163/migracao-de-clientesee3a.html?menuId=25849-69671-240163&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "240265",
+                "title": "Migração de produtos",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240265/migracao-de-produtosec28.html?menuId=25849-69671-240265&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "240273",
+                "title": "Contas a receber",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240273/contas-a-receber41d2.html?menuId=25849-69671-240273&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "240275",
+                "title": "Contas a pagar",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/240275/contas-a-pagare04b.html?menuId=25849-69671-240275&ticketId=&q="
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "name": "Integrações",
+        "subcategories": [
+            {
+                "type": "category",
+                "name": "Buscadores de preços",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "430214",
+                        "title": "Tanca",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/430214/01-tancafa8a.html?menuId=23897-116772-430214&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "436117",
+                        "title": "Gertec",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/436117/02-gertec5e86.html?menuId=23897-116772-436117&ticketId=&q="
+                    }
+                ]
+            }
+        ],
+        "articles": [
+            {
+                "type": "article",
+                "id": "237189",
+                "title": "Inteligência fiscal",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/237189/inteligencia-fiscal0dff.html?menuId=23897-64759-237189&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "276130",
+                "title": "SigePay - PIX",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/276130/sigepay-pix2312.html?menuId=23897-64759-276130&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "302695",
+                "title": "TEF",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/302695/tefaa57.html?menuId=23897-64759-302695&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "322163",
+                "title": "Balança de checkout",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/322163/balanca-de-checkoutbf32.html?menuId=23897-64759-322163&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "447222",
+                "title": "Clube de promoções - Scanntech",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/447222/06-clube-de-promocoes-scanntech6e49.html?menuId=23897-64759-447222&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "503259",
+                "title": "Shipay Itaú - PIX",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/503259/07-shipay-itau-pixa18b.html?menuId=23897-64759-503259&ticketId=&q="
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "name": "Apps",
+        "subcategories": [
+            {
+                "type": "category",
+                "name": "SigeDash",
+                "subcategories": [],
+                "articles": [
+                    {
+                        "type": "article",
+                        "id": "270815",
+                        "title": "Instalando o SigeDash no celular",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/270815/01-instalando-o-sigedash-no-celularc236.html?menuId=28383-76837-270815&ticketId=&q="
+                    },
+                    {
+                        "type": "article",
+                        "id": "270816",
+                        "title": "Usando o SigeDash no celular",
+                        "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/270816/02-usando-o-sigedash-no-celular2b02.html?menuId=28383-76837-270816&ticketId=&q="
+                    }
+                ]
+            }
+        ],
+        "articles": []
+    },
+    {
+        "type": "category",
+        "name": "Indicadores",
+        "subcategories": [],
+        "articles": [
+            {
+                "type": "article",
+                "id": "482278",
+                "title": "O que são os Indicadores?",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/482278/o-que-sao-os-indicadores367e.html?menuId=23706-127200-482278&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "482285",
+                "title": "Faturamento por categoria",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/482285/02-faturamento-por-categoriafda9.html?menuId=23706-127200-482285&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "482527",
+                "title": "Indicador de curva ABC por categoria",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/482527/indicador-curva-abc1724.html?menuId=23706-127200-482527&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "482288",
+                "title": "Demonstrativo de faturamento",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/482288/indicador-demonstrativo-faturamento55a6.html?menuId=23706-127200-482288&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "482291",
+                "title": "Análise de compras",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/482291/indicador-analise-de-comprasbb41.html?menuId=23706-127200-482291&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "482300",
+                "title": "Demonstrativo de Receitas e Despesas",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/482300/demonstrativo-de-receitas-e-despesasc867.html?menuId=23706-127200-482300&ticketId=&q="
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "name": "PDVgo",
+        "subcategories": [],
+        "articles": [
+            {
+                "type": "article",
+                "id": "539402",
+                "title": "PDV (Vendas no Balcão)",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/539402/01-pdv-vendas-no-balcaoac3b.html?menuId=53654-138725-539402&ticketId=&q="
+            },
+            {
+                "type": "article",
+                "id": "545750",
+                "title": "Gestão de Comandas",
+                "url": "../../../../suporte.sistemasbr.com.br_443/kb/pt-br/article/545750/02-gestao-de-comandasadac.html?menuId=53654-138725-545750&ticketId=&q="
+            }
+        ]
+    }
+]
