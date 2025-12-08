@@ -91,8 +91,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'sbrkb',  # PREENCHA
         'USER': 'postgres',  # PREENCHA
-        'PASSWORD': 'C41@blck',  # PREENCHA
-        'HOST': '127.0.0.1',  # PREENCHA
+        'PASSWORD': 'pv6g836wj84vx9YW',  # PREENCHA
+        'HOST': 'pv6g836wj84vx9YW',  # PREENCHA
         'PORT': '5432',  # PREENCHA
         'OPTIONS': {
             'options': '-c client_encoding=UTF8'
