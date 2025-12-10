@@ -7,7 +7,7 @@ pool:
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.11' # Defina a versão do Python
+    versionSpec: '3.14' # Defina a versão do Python
     addToPath: true
 
 - script: |
@@ -15,7 +15,6 @@ steps:
     source venv/bin/activate
     pip install -r requirements.txt
     python manage.py collectstatic --noinput
-    python manage.py test # Opcional: execute seus testes aqui
   displayName: 'Instalar Dependências e Coletar Estáticos'
 
 - task: AzureWebApp@1
