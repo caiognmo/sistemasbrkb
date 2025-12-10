@@ -1,43 +1,31 @@
-name: Build and deploy Django app to Azure Web App
+trigger:
+  branches:
+    include:
+      - main
 
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
+pool:
+  vmImage: 'ubuntu-latest'
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+steps:
+- checkout: self
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'  # troque se precisar; evite versões experimentais
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.10'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+  displayName: 'Install dependencies'
 
-      - name: Run migrations
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}   # se você tiver um DB externo
-          DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
-        run: |
-          python manage.py migrate --noinput
+- script: |
+    python manage.py collectstatic --noinput
+    python manage.py migrate --noinput
+  displayName: 'Django tasks'
 
-      - name: Collect static files
-        env:
-          DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
-        run: |
-          python manage.py collectstatic --noinput
-
-      - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'sistemasbrkb'                    # <--- coloque o nome do seu App Service
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          package: '.'                                # envia todo o repo (ajuste se quiser enviar só build folder)
+# Para deploy ao Azure Web App você pode usar a task AzureWebApp@1 com publish profile
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: '<Nome da sua conexão de serviço>'    # precisa configurar service connection no Azure DevOps
+    appName: 'sistemasbrkb'
+    package: '$(System.DefaultWorkingDirectory)/*'
