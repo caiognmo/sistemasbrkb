@@ -7,14 +7,14 @@ pool:
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.14' # Defina a versão do Python
+    versionSpec: '3.12' # Versão estável do Python
     addToPath: true
 
 - script: |
     python -m venv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
-    python manage.py collectstatic --noinput
+    # Usamos o caminho completo para o executável Python dentro do venv para garantir a instalação no ambiente correto
+    venv\Scripts\pip install -r requirements.txt 
+    venv\Scripts\python manage.py collectstatic --noinput
   displayName: 'Instalar Dependências e Coletar Estáticos'
 
 - task: AzureWebApp@1
