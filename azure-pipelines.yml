@@ -1,0 +1,13 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Microsoft Partner Network(b372c16a-8b32-4bf7-adb9-1d8f74d2d1dc)'
+    appType: 'webAppLinux'
+    appName: 'sistemasbrkb'
+    package: '$(System.DefaultWorkingDirectory)'
