@@ -1,10 +1,23 @@
 trigger:
-- main
+- main # ou sua branch principal
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: 'ubuntu-latest' # Ambiente Linux para Python
 
 steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.11' # Defina a versão do Python
+    addToPath: true
+
+- script: |
+    python -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    python manage.py collectstatic --noinput
+    python manage.py test # Opcional: execute seus testes aqui
+  displayName: 'Instalar Dependências e Coletar Estáticos'
+
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Microsoft Partner Network(b372c16a-8b32-4bf7-adb9-1d8f74d2d1dc)'
