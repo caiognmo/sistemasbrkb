@@ -1,25 +1,36 @@
 trigger:
-- main # ou sua branch principal
+- main
 
 pool:
-  name: 'Agent pool SBR' 
+  name: 'Agent pool SBR'
 
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.12' # Versão estável do Python
-    addToPath: true
+    versionSpec: '3.12'
+  displayName: 'Usar Python 3.12'
 
 - script: |
     python -m venv venv
-    # Usamos o caminho completo para o executável Python dentro do venv para garantir a instalação no ambiente correto
-    venv\Scripts\pip install -r requirements.txt 
-    venv\Scripts\python manage.py collectstatic --noinput
-  displayName: 'Instalar Dependências e Coletar Estáticos'
+    venv\Scripts\activate
+    pip install -r requirements.txt
+    pip install gunicorn
+    python manage.py collectstatic --noinput
+  displayName: 'Instalar dependências e coletar estáticos'
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+  displayName: 'Arquivar arquivos da aplicação'
 
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Microsoft Partner Network(b372c16a-8b32-4bf7-adb9-1d8f74d2d1dc)'
     appType: 'webAppLinux'
     appName: 'sistemasbrkb'
-    package: '$(System.DefaultWorkingDirectory)'
+    package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    startUpCommand: 'gunicorn --bind=0.0.0.0:8000 core.wsgi'

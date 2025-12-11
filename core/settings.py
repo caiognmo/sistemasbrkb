@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-zyl^r389wfj)qx3yh9g(nsqqwm&#(nx^rmj97b6$4%g$im#qrs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['caiogab.pythonanywhere.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['sistemasbrkb.azurewebsites.net', 'caiogab.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
